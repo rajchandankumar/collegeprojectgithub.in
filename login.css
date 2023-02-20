@@ -1,0 +1,288 @@
+.body{
+    margin-left: 15px;
+    max-width: 1400px;
+    max-height: auto;
+    background-color: aquamarine sandybrown gray lightblue;
+    padding: 0px;
+    font-family: consolas;
+    background: url(/templetes/demo/milky-way.jpg);
+    
+
+}
+
+
+/* header css */
+.header{
+    width: auto;
+    height: 200px;
+    padding: 4px;
+    margin: 6px;
+    background-color: #d6785e rgb(135, 31, 31);
+}
+.header img{
+	width: 20%;
+	height: 60%;
+	margin: 5px;
+    display: left;
+    
+    
+}
+.search{
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: -110px;
+    width: 300px;
+    height: 29px;
+    float: right;
+    text-shadow: rgb(243, 217, 183);
+    font: bold;
+    text-shadow: 5px 9px 12px 16px;
+    font-family: consolas;
+    border-radius: 2px;
+    outline: none;
+
+    
+}
+.header input{
+   outline: none;
+   border: none;
+    font-size: 1.1em;
+    color: #555;
+    background: linear-gradient(#dbdae1,#a3aaba);
+    box-shadow: 5px 5px 5px 5px rgb(205, 203, 203);
+    inset: 1px 1px 2px #fff;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+
+}
+ul li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(99, 154, 95);
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+
+}
+ul li a{
+    color: rgb(86, 77, 218);
+    text-decoration: none;
+    display: block;
+
+}
+ul li a:hover{
+    background-color: lightcoral;
+
+}
+ul li ul li{
+    display: none;
+
+}
+ul li:hover ul li{
+    display: block;
+    
+}
+.bodypart{
+    background-color: #e8ebf1;
+    max-width:1400px ;
+   max-height:auto;
+    font-family: consolas;
+    margin: 10px;
+    
+    
+}
+.aside1{
+    background-color: skyblue;
+    max-width: 500px;
+    height: 300px;
+    float: left;
+    display:flex;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin: 10px;
+
+
+}
+
+.aside2{
+   background-color: lightcoral;
+    max-width: 500px;
+    height: 300px;
+    float: right;
+    border: 3px solid rgb(160, 83, 83);
+    display: flex;
+    margin-top: 20px;
+    margin: 10px;
+
+
+
+}
+.aside3{
+    background-color: silver;
+    max-width: 500px;
+    height: 300px;
+    float: left;
+    display:flex;
+    border: 3px solid rgb(84, 225, 100);
+    margin-top: 20px;
+    margin: 10px;
+
+
+
+}
+.aside4{
+    background-color: goldenrod;
+    height: 300px;
+    max-width: 500px;
+    float: right;
+    display:flex;
+    border: 3px solid rgb(125, 118, 227);
+    margin-top: 20px;
+    margin: 10px;
+
+
+
+}
+.aside5{
+   background-color: darkred;
+    max-width: 500px;
+    height: 300px;
+    border: 3px lightgreen;
+    float:left;
+    display:flex;
+    margin-top: 20px;
+    margin: 10px;
+
+
+
+}
+ h4{
+    writing-mode: vertical-lr;
+    background-color: #76c7e4;
+    padding: 10px;
+    text-align: center;
+
+    
+}
+
+
+
+
+
+/* footer css */
+footer{
+    background-color: #2b66dc;
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 70%;
+    text-transform: uppercase;
+    height: 3.5vh;
+}
+
+/* popup css */
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "poppins",sans-serif;
+
+        }
+        .container{
+            width: 100%;
+            height: 65vh;
+            background-color: #3c5077;
+            text-align: center;
+            align-items: center;
+            
+            
+
+        }
+        .button{
+            padding: 10px;
+            background: rgb(56, 147, 14);
+            width: 120px;
+            height: 40px;
+            border: 0;
+            outline:none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 30px;
+            color: crimson solid;
+
+        }
+        .popup{
+            width: 400px;
+            background-color: rgb(234, 164, 164);
+            border-radius: 6px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%,-50%) scale(0.1);
+            text-align: center;
+            padding: 0 30px 30px;
+            color: #333;
+            visibility: hidden;
+            transition: transform 0.4s,top 0.4s;
+
+
+
+
+        }
+        .open-popup{
+            visibility: visible;
+            top:50%;
+            transform: translate(-50%,-50%) scale(1);
+            
+
+        }
+       
+        .popup img{
+            width: 100px;
+            height: 100px;
+            margin-top: -50px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0,0, .02);
+        }
+        .popup h2{
+            font-size: 38px;
+            font-weight: 500;
+            margin: 30px 0 10px;
+
+        }
+        .popup button{
+            width: 100px;
+            margin-top: 50px;
+            padding: 10px 0;
+            background-color: #6fd649;
+            color: #fff;
+            border: 0;
+            outline: none;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+
+
+        }
+        /* form css */
+        .form{
+          
+           margin: 45px 20px 20px 20px;
+           height: auto;
+        }
+        
+        .form input{
+            padding: 5px;
+
+        }
+        
+

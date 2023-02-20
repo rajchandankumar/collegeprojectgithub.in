@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body >
+    <header class="header">
+        <img src="D:\user\webtechnonogy\college_project\templetes\project2\logoofproject.png" alt="img">
+        <form action="signup.php" method="POST">
+            <input class="search" type="text" name="value" placeholder="search here...        " autofocus="">
+            <datalist>
+              <option value="java">java</option>
+              <option value="php">php</option>
+              <option value="python">python</option>
+            </datalist>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Department</a>
+              <ul>
+                <li><a href="computer.html">CSE</a></li>
+              <li><a href="civil.html">Civil</a></li>
+              <li><a href="Mechenical.html">Machenical</a></li>
+              <li><a href="Electrical.html">Electrical</a></li>
+              <li><a href="electronic.html">Electronics</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About-us</a></li>
+            <li><a href="#">College</a></li>
+            <li><a href="#">Syllabus</a></li>
+            <li><a href="#">Ebook</a></li>
+            <li><a href="#">Study Material</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            
+          </ul>
+    </header>
+    <br>
+    <br>
+    <div class="container">
+        <div class="div_form">
+            <h1 style="color: cadetblue;">Informatics Login</h1><hr/>
+            <!-- <form action="" method="POST"  class="form" > -->
+            <strong>First Name :</strong>
+            <input type="text" name="Firstname"  required="" style="width: 200px; height: 29px; background-color:cornsilk; border-radius: 6px;"/></br></br>
+            <strong> Last Name :</strong>
+            <input type="text" name="Lastname"  required=" " style="width: 200px; height: 29px; background-color:cornsilk; border-radius: 6px;"/><br><br>
+            <strong> Email id :</strong>
+            <input type="email" name="email"  required=" " style="width: 200px; height: 29px; background-color:cornsilk; border-radius: 6px;"/><br><br>
+            <strong>Password :</strong>
+            <input type="password" name="password"  required="" style="width: 200px; height: 29px; background-color:cornsilk; margin-left: 5px; border-radius: 6px;"/></br></br>
+            <strong> College Name :</strong>
+            <input type="text" name="college" required="" style="width: 200px; height: 29px; background-color:cornsilk;border-radius: 6px;"></br></br>
+            <button type="submit" class="button"    onclick="openpopup()" > signup </button> <br><br>
+            <p> you have already registerd<a href="login.html"> <b> login in </b> </a></P>
+             </form>
+        </div>
+    </div>
+</body>
+</html>

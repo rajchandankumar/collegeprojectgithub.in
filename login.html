@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            background:lightgrey;
+            position:absolute;
+            display:flex;
+        }
+        .maindiv{
+            padding: 5px;
+            margin: 150px 250px;
+            display:inline;
+            width:330px;
+            height:220px;
+            position:absolute;
+            justify:center;
+            align-items:center;
+            background:white;
+
+        }
+        .maindiv leble{
+            padding:3px;
+
+        }
+        .maindiv input{
+            margin:12px;
+            padding: 6px;
+            border:none;
+            background:lightgrey;
+            border:none;
+            
+
+        }
+        .maindiv button{
+            width:250px;
+            height:40px;
+            margin-left:30px;
+            margin-top:10px;
+            background:lightblue;
+            color:dark;
+        }
+        p{
+            position:absolute;
+            margin-top:390px;
+            margin-left:280px;
+            width:220px;
+        }
+</style>
+<!-- <script> 
+var user = getElementById("username").VALUES;
+var pass = getElementById("password").values;
+var confirm = getElementById("confpass").values;
+
+
+function login(){
+
+        
+}
+if(pass==comfirm){
+    login();
+}
+
+</script> -->
+</head>
+<body>
+    <form action="login1.php" method="POST">
+    <div class=" maindiv"> 
+        <leble> <b>User name</b> :</leble>
+        <input type="text" name="User" requred=" " id="username"/>
+        <leble> <b>Password</b> :</leble>
+        <input type="password" name="Pass" requred=" " id="password"/>
+        <leble> <b>Confirm password</b> :</leble>
+        <input type="password" name="Confirmpass" requred=" " id="confpass"/>
+        <button  type="submit" onclick="login()">login</button>
+    </div>
+    <P>Don't hava account <a href="registration.html"> <b>Sign in</B> </a></P>
+    </form>
+</body>
+
+</html>
